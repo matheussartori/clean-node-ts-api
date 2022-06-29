@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:matheussartori/clean-node-ts-api.git",
   "author": "Matheus Sartori <ms.sartori@outlook.com.br>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^8.0.1"
+  }
 }
