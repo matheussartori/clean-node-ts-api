@@ -6,6 +6,7 @@
   "author": "Matheus Sartori <ms.sartori@outlook.com.br>",
   "license": "MIT",
   "scripts": {
+    "lint-staged": "node node_modules/.bin/lint-staged",
     "prepare": "husky install"
   },
   "devDependencies": {
