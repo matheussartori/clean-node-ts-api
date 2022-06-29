@@ -9,6 +9,11 @@
     "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --respawn --exit-child src/shared/infra/http/server.ts",
     "build": "rimraf dist; babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
     "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --detectOpenHandles",
+    "test:verbose": "jest --passWithNoTests --runInBand --detectOpenHandles",
+    "test:unit": "yarn test --watch -c jest-unit.config.ts",
+    "test:integration": "yarn test --watch -c jest-integration.config.ts",
+    "test:staged": "yarn test --findRelatedTests",
+    "test:ci": "yarn test --coverage",
     "lint-staged": "node node_modules/.bin/lint-staged",
     "prepare": "husky install"
   },
