@@ -1,0 +1,11 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Clean Node TS Api",
+    "description": "API Docs example.",
+    "version": "1.0.0",
+    "contact": {
+      "email": "ms.sartori@outlook.com.br"
+    }
+  }
+}
