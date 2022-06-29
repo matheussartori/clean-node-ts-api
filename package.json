@@ -1,0 +1,8 @@
+{
+  "name": "clean-node-ts-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:matheussartori/clean-node-ts-api.git",
+  "author": "Matheus Sartori <ms.sartori@outlook.com.br>",
+  "license": "MIT"
+}
