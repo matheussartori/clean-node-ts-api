@@ -6,6 +6,7 @@
   "author": "Matheus Sartori <ms.sartori@outlook.com.br>",
   "license": "MIT",
   "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --respawn --exit-child src/shared/infra/http/server.ts",
     "build": "rimraf dist; babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
     "lint-staged": "node node_modules/.bin/lint-staged",
     "prepare": "husky install"
