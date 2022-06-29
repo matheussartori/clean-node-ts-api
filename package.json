@@ -5,6 +5,9 @@
   "repository": "git@github.com:matheussartori/clean-node-ts-api.git",
   "author": "Matheus Sartori <ms.sartori@outlook.com.br>",
   "license": "MIT",
+  "scripts": {
+    "prepare": "husky install"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
@@ -16,8 +19,5 @@
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^8.0.1"
-  },
-  "scripts": {
-    "prepare": "husky install"
   }
 }
