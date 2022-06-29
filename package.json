@@ -8,9 +8,9 @@
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --respawn --exit-child src/shared/infra/http/server.ts",
     "build": "rimraf dist; babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --detectOpenHandles",
     "lint-staged": "node node_modules/.bin/lint-staged",
-    "prepare": "husky install",
-    "test": "jest"
+    "prepare": "husky install"
   },
   "dependencies": {
     "@types/node": "^18.0.0",
